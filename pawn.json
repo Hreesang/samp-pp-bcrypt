@@ -1,0 +1,22 @@
+{
+  "user": "Hreesang",
+  "repo": "samp-pp-bcrypt",
+  "tag": "1.0.0",
+  "entry": "test.pwn",
+  "output": "gamemodes/test.amx",
+  "dependencies": ["IS4Code/PawnPlus:v1.4.2"],
+  "dev_dependencies": [
+    "pawn-lang/samp-stdlib#8ffb055624308b25521665b60e78b5e6e6b3717f",
+    "pawn-lang/pawn-stdlib#e96507d9a6ddaae5bb0f3ec31479ba805aeff964",
+    "Y-Less/samp-plugin-crashdetect:v4.22",
+    "Sreyas-Sreelal/samp-bcrypt:0.4.0",
+    "Y-Less/sscanf:v2.13.8",
+    "Hreesang/samp-my-cmd#a5bcd305f2fbf54aced7c164a3a416628631abad",
+    "ScavengeSurvive/test-boilerplate#3c569e0e4293fc1d46286146cb9ee4bb5273fd10"
+  ],
+  "local": true,
+  "runtime": {
+    "port": 7777,
+    "rcon_password": "password"
+  }
+}
